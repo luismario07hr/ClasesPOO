@@ -1,7 +1,11 @@
-valor = 42
-valor2 = "Hola uwu"
+s = 'Python'
+m = "Bienvenido"
+c = "Hola mundo"
 
-hola = "hol\"jks"
-print (type(valor))
-print (type(valor2))
-print(hola)
+print (s + m) #Concatenar
+print(s*5) #Repetir
+#No se puede usar - porque no se puede restar
+print(s.lower()) #Minusculas
+print(m.upper()) #Mayusculas
+print(len*s) #Tamano de letras
+print(c.split(" ")) #Dividirlo y decir donde dividirlo

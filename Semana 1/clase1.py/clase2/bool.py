@@ -11,6 +11,6 @@ print (primero < segundo)
 print (primero > segundo)
 print (primero >= segundo)
 
-print (tengo_hambre and notengo)
-print (tengo_hambre or notengo)
-print (not tengo_hambre)
+print (tengo_hambre and notengo) #False
+print (tengo_hambre or notengo) #True
+print (not tengo_hambre) #False

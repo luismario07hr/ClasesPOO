@@ -5,7 +5,7 @@ opciones = ('ROCK', 'PAPER', 'SCISSORS', 'LIZARD', 'SPOCK')
 opcion = input("Digite una opciones (Rock, Paper, Scissors, Lizard, Spock): ").upper()
 
 opcion_computadora = random.choice(opciones)
-print(opcion_computadora)
+print(f"La ocpion de la maquina es: {opcion_computadora}")
 
 if opcion == "ROCK":
     if opcion_computadora == 'SCISSORS' or opcion_computadora == "LIZARD":
